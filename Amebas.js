@@ -3,7 +3,7 @@
 /* VARIABLES */
 
 /* ROOM */
-const roomName = "🦠 AMEBAS 🦠 | MENDIGOS | FLASH";
+const roomName = "😳 NIGHT 😳";
 const botName = "🤖 PERSONAL TRAINER";
 const maxPlayers = 16;
 const roomPublic = true;
@@ -54,7 +54,7 @@ const css = "border:2px solid;padding:8px;background:";
 room.setTeamsLock(true);
 var message;
 var Skankdivulgabot;
-var Deus = [];
+var Deus = ['yup'];
 var SkankdivulgabotTime = 200000;
 
 /* STADIUM */
@@ -2976,5 +2976,5 @@ room.onGameTick = function() {
 }
 
 Skankdivulgabot = setInterval(function() {
-    room.sendAnnouncement("entra no discord e baixa o bot pra você gratis HAHAHAHA! abraços do SK42 https://discord.gg/Dy8KRE9wUC", null, 0xFF0000, "bold");
+    room.sendAnnouncement("Entre no nosso servidor do discord:", null, 0xFF0000, "bold");
 }, SkankdivulgabotTime);
